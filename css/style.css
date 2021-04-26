@@ -1,0 +1,86 @@
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto medium';
+}
+
+.bg_main {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 800px;
+    height: 400px;
+    opacity: 0.2;
+    border-radius: 5px;
+
+}
+
+.resume {
+    position: relative;
+    margin: 0 auto;
+    margin-top: -420px;
+    width: 800px;
+    height: 400px;
+    /* background-image: linear-gradient(rgb(255, 240, 240), rgb(219, 219, 230));
+    border-radius: 5px; */
+}
+
+a {
+    color:rgb(8, 141, 19);
+}
+
+a:hover {
+    color:rgb(21, 216, 21);
+}
+
+.container {
+    width: 430px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.foto_profile {
+    position: absolute;
+    /* margin-top: -375px;
+    padding-left: 550px; */
+    top: 10px;
+    right: 42px;
+}
+
+.foto_img {
+    width: 210px;
+    height: 420px;
+    border-radius: 5px;
+    box-shadow: 0.4em 0.4em 5px rgba(44, 42, 42, 0.5);
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.resume .container .info .skils .box {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.foto_wrapper {
+    position: absolute;
+    margin: 4px;
+    top: 12px;
+    right: 0px;
+}
+
+.foto_item {
+    margin-top: 5px;
+}
+
